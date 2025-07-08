@@ -8,12 +8,25 @@ Este repositório contém um exemplo simples de como usar a biblioteca [Marked.j
 - Um exemplo embutido de Markdown (injetado via string JavaScript).
 - Um exemplo carregado a partir de um arquivo externo (`exemplo.md`).
 
-## 🌐 Como ver funcionando
+## 🌐 Como ver funcionando no GitHub Pages
 
-1. Faça o commit deste repositório no GitHub.
-2. Vá em **Settings > Pages**.
-3. Ative o GitHub Pages apontando para a branch `main` e pasta `/root` (ou `/docs`, se mover os arquivos).
-4. Acesse seu site via `https://seunome.github.io/repositorio`.
+Você pode ver este projeto funcionando **sem baixar nada**, apenas fazendo um fork:
+
+### 🔧 Passo a passo:
+
+1. Faça um **fork** deste repositório.
+2. Vá no seu repositório forkado, clique em **Settings > Pages**.
+3. Em **Source**, selecione:
+   - Branch: `main`
+   - Pasta: `/ (root)` ou `/docs`, dependendo de onde os arquivos estão
+4. Salve e aguarde alguns segundos.
+5. Acesse sua URL personalizada:
+
+```
+https://<seu-usuario>.github.io/<nome-do-repositorio>/
+```
+
+> Exemplo: `https://joaodasilva.github.io/markdown-exemplo/`
 
 ## 🧪 Testes locais
 
