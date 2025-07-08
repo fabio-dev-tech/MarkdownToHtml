@@ -82,7 +82,7 @@ function ola() {
         document.getElementById("markdown-inline").innerHTML = marked.parse(markdownText);
 
         // Exemplo externo (funciona no GitHub Pages)
-        fetch('./exemplo.md')
+        fetch('exemplo.md')
             .then(response => response.text())
             .then(text => {
                 document.getElementById("markdown-arquivo").innerHTML = marked.parse(text);
